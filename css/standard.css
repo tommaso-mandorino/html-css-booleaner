@@ -1,24 +1,93 @@
 /* Resets */
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
   box-sizing: border-box;
 }
 
-/* Utilities */
+/* Utility classes */
 
-/* Tags */
-header {
-  background-color: #4ea0ff;
-  background-image: url("../img/pattern.png");
-  background-size: 30%;
-  padding-top: 3%;
+/* Margin */
+
+/* Non le metto globali perché molti margini di default mi fanno comodo */
+.no-margin {
+  margin: 0;
 }
 
-/* Classes */
+.no-margin-horizontal {
+  margin-left: 0;
+  margin-right: 0;
+}
 
-/* IDs */
-#logo {
-  width: 15%;
+.margin-vertical-small {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.margin-vertical-medium {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+/* Padding */
+.no-padding {
+  padding: 0;
+}
+
+.padding-small {
+  padding: 0.5%;
+}
+
+/* Width */
+.width-half {
+  width: 50%;
+}
+
+/* Text size */
+.text-small {
+  font-size: 1rem;
+}
+
+.text-huge {
+  font-size: 5rem;
+}
+
+/* Text weight */
+.text-bold {
+  font-weight: bold;
+}
+
+/* Colors */
+
+/* Background color */
+.bg-darker-light-blue {
+  background-color: #4ea0ff;
+}
+
+.bg-medium-light-blue {
+  background-color: #20a9e5;
+}
+
+.bg-lighter-light-blue {
+  background-color: #b1e5f2;
+}
+
+/* Text color */
+.text-gray {
+  color: #808080;
+}
+
+.text-light-blue {
+  color: #3cb4e7;
+}
+
+.text-white {
+  color: white;
+}
+
+/* Background images */
+.bg-monitor {
+  background-image: url(../img/monitor.jpg);
+}
+
+.bg-graph {
+  background-image: url(../img/graph.jpg);
 }
