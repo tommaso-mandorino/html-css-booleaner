@@ -1,19 +1,95 @@
 <!DOCTYPE html>
-<html lang="it">
+<!-- Aggiungere/rimuovere la classe bonus dal tag html per passare da una versione all'altra del sito -->
+<html lang="it" class="bonus">
   <head>
+    <meta
+      name="description"
+      content="Internet deve essere al servizio del 'bene pubblico': il manifesto di
+    Tim Berners-Lee"
+    />
+    <meta
+      name="keywords"
+      content="Internet, Servizio, Bene, Pubblico, Manifesto, Tim, Berners, Lee"
+    />
+    <meta name="author" content="The Booleaner" />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/standard.css" />
-    <link rel="stylesheet" href="css/bonus.css" />
+
+    <link rel="stylesheet" href="./css/standard.css" />
+    <link rel="stylesheet" href="./css/bonus.css" />
+
     <title>The Booleaner</title>
   </head>
-  <body class="standard">
+  <body>
     <!-- Header section -->
-    <header>
-      <img id="logo" src="img/logo.svg" alt="Logo The Booleaner" />
+    <header class="padding-small bg-darker-light-blue">
+      <img
+        id="the-booleaner-logo"
+        src="./img/logo.svg"
+        alt="Logo The Booleaner"
+      />
     </header>
 
     <!-- Main section -->
-    <main></main>
+    <main class="padding-small">
+        <!-- Article title -->
+        <h1 class="no-margin text-huge">
+          Internet deve essere al servizio del "bene pubblico": il manifesto di
+          Tim Berners-Lee
+        </h1>
+  
+        <!-- Article information -->
+        <address class="text-bold text-gray">
+          Scritto da
+          <a href="#" class="text-light-blue">The Booleaner</a><br />
+          <time class="text-small" datetime="2020-10-10">il 10/10/2020</time>
+        </address>
+  
+        <!-- Article photos -->
+        <figure id="article-photos" class="no-margin-horizontal">
+          <img src="./img/tim-1.jpg" alt="Foto 1 di Tim Berners-Lee" />
+          <img src="./img/tim-2.jpg" alt="Foto 2 di Tim Berners-Lee" />
+          <figcaption class="text-small">
+            1st Photo: John S. and James L. Knight Fundation, by Scott
+            Henrichsen<br />
+            2nd Photo: Wikimedia, by Paul Clarke
+          </figcaption>
+        </figure>
+  
+        <!-- Paragraph -->
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore
+          nesciunt illo, consequuntur nobis quae debitis, dolor totam molestiae
+          eius non itaque quibusdam autem, architecto repellendus ipsum repellat
+          magni natus.
+          <mark
+            >Praesentium pariatur porro laborum sint ad dolores sunt, cumque ut
+            eveniet corporis soluta quod, labore voluptate quidem?</mark
+          >
+          Culpa, nihil necessitatibus! Cupiditate, enim? Eligendi, voluptates eos,
+          in natus tempore, cum nulla quidem minima harum cupiditate nesciunt esse
+          qui? Expedita ipsum eos similique reprehenderit repellat corporis?
+          Facilis, natus possimus. Possimus placeat nam accusamus.
+        </p>
+  
+        <!-- Article unordered list -->
+        <ul class="no-padding margin-vertical-medium">
+          <li>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            enim ipsa illum eligendi. Pariatur quia soluta totam unde obcaecati?
+            Facere.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Exercitationem facere asperiores nam similique in corrupti voluptatem
+            explicabo maxime nemo nobis.
+          </li>
+          <li>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto
+            laborum hic repellat quod sunt maxime alias atque sint, minima sed?
+          </li>
+        </ul>
+  
   </body>
 </html>
