@@ -1,0 +1,24 @@
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* Utilities */
+
+/* Tags */
+header {
+  background-color: #4ea0ff;
+  background-image: url("../img/pattern.png");
+  background-size: 30%;
+  padding-top: 3%;
+}
+
+/* Classes */
+
+/* IDs */
+#logo {
+  width: 15%;
+}
