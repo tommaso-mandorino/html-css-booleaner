@@ -1,0 +1,8 @@
+html.bonus header,
+html.bonus main {
+  padding: 0.5% 10%;
+}
+
+html.bonus #article-photos img {
+  height: 33rem;
+}
