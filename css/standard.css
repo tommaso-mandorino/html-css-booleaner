@@ -91,3 +91,56 @@
 .bg-graph {
   background-image: url(../img/graph.jpg);
 }
+
+/* Generic tags */
+body {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+header {
+  background-image: url("../img/pattern.png");
+  background-size: 30%;
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+}
+
+a {
+  text-decoration-line: none;
+  font-weight: bold;
+}
+
+/* IDs */
+
+#the-booleaner-logo {
+  width: 15%;
+  margin-top: 3%;
+}
+
+#article-photos img {
+  height: 41rem;
+}
+
+#related-articles a {
+  display: block;
+  margin: 1% 0;
+  padding: 1%;
+  width: 300px;
+  height: 200px;
+  background-size: contain;
+  color: white;
+}
