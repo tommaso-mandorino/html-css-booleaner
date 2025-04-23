@@ -1,2 +1,3 @@
 # html-css-booleaner
-Esercizio "The Booleaner"
+
+"The Booleaner" exercise
